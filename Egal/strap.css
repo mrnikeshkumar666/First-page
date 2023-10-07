@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main .header{
+    width: 100%;
+    height: 80px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+.main .header .logo{
+    color: #775E68;
+    margin-left: 164px;
+    margin-top: 30px;
+    font-size: large;
+
+}
+.main .header .home{
+    color: #775E68;
+    display: flex;
+    gap: 25px;
+    margin-right: 164px;
+    margin-top: 30px;
+    font-size: smaller;
+}
+.who:hover p{
+    color: #53C0A2;
+}
+.what:hover p{
+    color: #53C0A2;
+}
+.where:hover p{
+    color: #53C0A2;
+}
+.main .page{
+    height: 683px;
+    background-color: #1ABC9C;
+}
+.main .page .page1{
+    text-align: center;
+    font-size: x-large;
+    color: #E9ECC2 ;
+    padding-top: 100px;
+}
+
+.main .page .page1 img{
+    border-radius: 50%;
+    padding: 50px;
+    
+}
+.main .detail{
+    text-align: center;
+    height: 345px;
+    color: #E9ECC2;
+    background-color: #474E5D;
+
+}
+.main .detail h2{
+    padding: 90px;
+}
+.main .detail .wr p{
+    font-size: large;
+    line-height: 23px;
+    
+}
+.main .detail .wr button{
+    width: 118px;
+    height: 46px;
+    font-size: large;
+    color: #33335B;
+    margin-top: 10px;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+}
+.main .find{
+    text-align: center;
+    height: 694px;
+    color:#33335B ;
+   margin-top: 90px;
+}
+.main .photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main .photo .img{
+    margin-top: 100px;
+    font-size: large;
+    line-height: 30px;
+}
+ .main .photo .img img{
+    width: 469px;
+    height: 402px;
+ }
+ footer{
+    text-align: center;
+    background-color: #2F2F2F;
+    color: #FFFFF2;
+    font-size: large;
+    line-height: 179px;
+    height: 179px;
+ }
+ footer a{
+    color: #275272;
+ }
